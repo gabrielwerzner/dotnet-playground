@@ -1,0 +1,36 @@
+# 1. Set up the API
+
+// generate a web api app
+dotnet new webapi -o api
+dotnet build
+dotnet run // start api
+
+// the open api spec is already installed and started in the Program.cs
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+}
+
+// you can have a a look at the open api spec
+http://localhost:5190/openapi/v1.json
+
+# 2. Add swagger UI
+
+If you want to see the swagger UI first add the scalar package with the following command:
+dotnet add package Scalar.AspNetCore
+
+// the add in Program.cs in side the development block:
+app.MapScalarApiReference();
+
+// add the import in the Program.cs
+using Scalar.AspNetCore;
+
+// Then run dotnet build again
+the swagger UI will be available at
+http://localhost:5190/scalar/v1
+
+# 3. Add a new endpoint
+
+
+
+
