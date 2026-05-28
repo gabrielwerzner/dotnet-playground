@@ -2,11 +2,12 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+var apiV1 = app.MapGroup("/api/v1");
+var apiV2 = app.MapGroup("/api/v2");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -35,7 +36,10 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+
 app.MapGet("/helloworld", () => new { Hello = "World" });
+apiV1.MapGet("/helloworld", () => new { Hello = "World v1" });
+apiV2.MapGet("/helloworld", () => new { Hello = "World v2" });
 
 
 
