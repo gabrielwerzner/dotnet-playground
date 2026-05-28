@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gabriel/WebstormProjects/dotnet-playground/gabriel/mygaboapp/apidemo/api/api.csproj": {}
+    "C:\\Users\\Stanislav.Vranic\\Documents\\Projects\\dotnet-playground\\gabriel\\mygaboapp\\apidemo\\api\\api.csproj": {}
   },
   "projects": {
-    "/Users/gabriel/WebstormProjects/dotnet-playground/gabriel/mygaboapp/apidemo/api/api.csproj": {
+    "C:\\Users\\Stanislav.Vranic\\Documents\\Projects\\dotnet-playground\\gabriel\\mygaboapp\\apidemo\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gabriel/WebstormProjects/dotnet-playground/gabriel/mygaboapp/apidemo/api/api.csproj",
+        "projectUniqueName": "C:\\Users\\Stanislav.Vranic\\Documents\\Projects\\dotnet-playground\\gabriel\\mygaboapp\\apidemo\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/gabriel/WebstormProjects/dotnet-playground/gabriel/mygaboapp/apidemo/api/api.csproj",
-        "packagesPath": "/Users/gabriel/.nuget/packages/",
-        "outputPath": "/Users/gabriel/WebstormProjects/dotnet-playground/gabriel/mygaboapp/apidemo/api/obj/",
+        "projectPath": "C:\\Users\\Stanislav.Vranic\\Documents\\Projects\\dotnet-playground\\gabriel\\mygaboapp\\apidemo\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\Stanislav.Vranic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stanislav.Vranic\\Documents\\Projects\\dotnet-playground\\gabriel\\mygaboapp\\apidemo\\api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/gabriel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Stanislav.Vranic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

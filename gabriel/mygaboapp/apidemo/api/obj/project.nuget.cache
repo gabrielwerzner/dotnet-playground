@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TkhmrF2yWIk=",
+  "dgSpecHash": "XfzQTiD2WIc=",
   "success": true,
-  "projectFilePath": "/Users/gabriel/WebstormProjects/dotnet-playground/gabriel/mygaboapp/apidemo/api/api.csproj",
+  "projectFilePath": "C:\\Users\\Stanislav.Vranic\\Documents\\Projects\\dotnet-playground\\gabriel\\mygaboapp\\apidemo\\api\\api.csproj",
   "expectedPackageFiles": [
-    "/Users/gabriel/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
-    "/Users/gabriel/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
-    "/Users/gabriel/.nuget/packages/scalar.aspnetcore/2.14.14/scalar.aspnetcore.2.14.14.nupkg.sha512"
+    "C:\\Users\\Stanislav.Vranic\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Stanislav.Vranic\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Stanislav.Vranic\\.nuget\\packages\\scalar.aspnetcore\\2.14.14\\scalar.aspnetcore.2.14.14.nupkg.sha512"
   ],
   "logs": []
 }
