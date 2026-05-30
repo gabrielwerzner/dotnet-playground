@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ConnectionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ServerName>10.190.12.3</ServerName>
+	<DatabaseName>DEV_MasterTranslationV5</DatabaseName>
+	<Username>sa</Username>
+	<Password>H7h3c8l3e#</Password>
+</ConnectionSettings>

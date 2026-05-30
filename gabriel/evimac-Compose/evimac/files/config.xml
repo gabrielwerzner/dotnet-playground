@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<WebFolder>JavascriptClient</WebFolder>
+	<WSPort>8085</WSPort>
+	<TechnicalUser>
+		<UserName>admin</UserName>
+		<Password>q+u08Y7xRNVBTdgKqHhzVw==</Password>
+		<Domain>!nodom!</Domain>
+	</TechnicalUser>
+	<!-- Postgres Meta -->
+	<ConfigDBType>497F5F18-BAC5-4F91-BFB6-D4D20CC0205D</ConfigDBType>
+	<Server>postgres</Server>
+	<Port>5432</Port>
+	<Username>postgres</Username>
+	<Password>LuOHpIoGgcNJDADDtQfWxw==</Password>
+	<Database>MaC_Config</Database>
+	<SSPI>false</SSPI>
+	<!-- Keycloak -->
+	<AuthProviderID>92342EAA-EA28-46E1-A377-E74208257993</AuthProviderID>
+	<Keycloak>
+		<BaseUrl>http://keycloak:8080</BaseUrl>
+		<Realm>evidanza</Realm>
+		<Audience>evidanza</Audience>
+		<ClientId>evidanza</ClientId>
+		<ClientSecret>FeL6xh+AZaFZBSxevz2i212pMo70XEsACStOwp5aqOCPTlEbO+olRFL4jbR5nmUZ</ClientSecret>
+		<AdminUser>admin</AdminUser>
+		<AdminPassword>q+u08Y7xRNVBTdgKqHhzVw==</AdminPassword>
+		<UseKeycloakLogin>true</UseKeycloakLogin>
+	</Keycloak>
+</Configuration>
